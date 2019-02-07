@@ -1,0 +1,95 @@
+html {
+  overflow-x: hidden;
+  color: #000000;
+}
+
+h1 {
+  font-weight: bold;
+  padding: 20px 0 10px;
+  margin: 0 auto;
+}
+
+span {
+  color: red;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #404040;
+}
+
+a:hover {
+  color: #bbbbbb;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+li {
+  padding: 2px;
+  text-align: justify;
+}
+
+#content {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  width: 75%;
+}
+
+#header {
+  text-align: center;
+  padding-bottom: 65px;
+}
+
+#secret {
+  position: absolute;
+  left: 74px;
+  top: 374px;
+  opacity: 0.1;
+}
+
+#quote {
+  padding: 15px;
+}
+
+.background {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.09;
+}
+
+.list {
+  display: inline-block;
+  vertical-align: top;
+}
+
+td.td {
+  opacity: 0.1;
+}
+
+#secret:hover {
+  opacity: 0.6;
+  color: #00FFB9;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border: 0;
+}
+
+tr:nth-child(odd) {
+  background-color: #ABB2B9;
+}
+
+td {
+  padding: 10px;
+}
